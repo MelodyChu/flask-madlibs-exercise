@@ -1,10 +1,20 @@
 <html>
 <head>
+
+    <link rel="stylesheet" href="/static/madlibs.css">
     <title>Madlib</title>
 </head>
 <body>
     <p>There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab.<br>
-    When {{ person }} went to pick it up, it burst into flames in a totally<br>
+    When {{ player }} went to pick it up, it burst into flames in a totally<br>
     {{ adjective }} way.<p>
+
+    <p>{% for i in range(likedwords|length) %}
+    Two {{likedwords[i]}}, both alike in dignity,
+    In fair San Diego, CA, where we lay our scene,
+    From ancient {{likedwords[i+1]}} break to new mutiny...</p>
+    {% endfor %} </p>
+
+    
 </body>
 </html>

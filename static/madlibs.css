@@ -1,0 +1,17 @@
+body {
+    /*background-color: #DDE9FD  */
+    background-image: url("https://i.pinimg.com/736x/92/a5/e3/92a5e3c0639b56da46afb6e79a7f9f41--hipster-beach-hipster-images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30em 25em;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    }
+
+input {
+    width:30 px;
+    font-size: 28px;
+    border: 2px solid green;
+    border-radius: 4px;
+    }
